@@ -1,14 +1,16 @@
 {
   "animals": [
     {
-      "id": 1,
-      "name": "Doodles",
-      "breed": "Poodle"
+      "id": 2,
+      "name": "Snowball",
+      "breed": "Robot",
+      "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg"
     },
     {
-      "id": 2,
-      "name": "Decker",
-      "breed": "German Shepherd"
+      "id": 3,
+      "name": "Snuffles",
+      "breed": "Fluffy",
+      "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg"
     }
   ],
   "customers": [
@@ -52,21 +54,25 @@
     {
       "id": 1,
       "name": "Summer Smith",
+      "img": "https://i.pinimg.com/originals/75/ad/2c/75ad2cae483ea8d808dc4b8997eb1948.png",
       "locationId": 2
     },
     {
       "id": 2,
       "name": "Morty Smith",
+      "img": "https://ih1.redbubble.net/image.723088964.2509/st,small,507x507-pad,600x600,f8f8f8.jpg",
       "locationId": 1
     },
     {
       "id": 3,
       "name": "Gerry Smith",
+      "img": "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/11/Rick-and-Morty-Jerry-Crowbar-1.jpg?q=50&fit=crop&w=740&h=370",
       "locationId": 2
     },
     {
       "id": 4,
       "name": "Mr Meeseeks",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWuyOGJt8XF6qZlUwMk5w0-TL2JJBc9bZW_A&usqp=CAU",
       "locationId": 1
     }
   ],

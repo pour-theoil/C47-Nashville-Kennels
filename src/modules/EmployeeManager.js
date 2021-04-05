@@ -5,3 +5,8 @@ export const getAllEmployees = () => {
     .then(response => response.json())
 }
 
+export const deleteSetEmployee = (id) => {
+    return fetch(`${remoteURL}/employees/${id}`, {
+        method: "DELETE"
+    }).then(result => result.json())
+}
