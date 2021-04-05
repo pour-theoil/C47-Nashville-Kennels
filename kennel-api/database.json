@@ -1,98 +1,107 @@
 {
-    "animals": [
-        { "id": 1, "name": "Doodles", "breed": "Poodle"},
-        { "id": 2, "name": "Decker", "breed": "German Shepherd" },
-        { "id": 3, "name": "Esme", "breed": "Pitbull" }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
-        },
-        {
-            "id": 2,
-            "name": "Beth Smith",
-            "address": "7012 Chestnut Ct"
-        },
-        {
-            "id": 3,
-            "name": "Donna Gueteman",
-            "address": "7022 Chestnut Ct"
-        },
-        {
-            "id": 4,
-            "name": "Agent Gribbles",
-            "address": "7032 Chestnut Ct"
-        },
-        {
-            "id": 5,
-            "name": "David Prime",
-            "address": "7042 Chestnut Ct"
-        },   {
-            "id": 6,
-            "name": "Dr. Schmidt",
-            "address": "7052 Chestnut Ct"
-        },   {
-            "id": 7,
-            "name": "Bobby Moynihan",
-            "address": "7062 Chestnut Ct"
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Summer Smith",
-            "locationId": 2
-        },
-        {
-            "id": 2,
-            "name": "Morty Smith",
-            "locationId": 1
-        },
-        {
-            "id": 3,
-            "name": "Gerry Smith",
-            "locationId": 2
-        },
-        {
-            "id": 4,
-            "name": "Mr Meeseeks",
-            "locationId": 1
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ],
-    "owners": [
-        {
-            "id": 1,
-            "name": "General Nathan",
-            "locationId": 2
-        },
-        {
-            "id": 2,
-            "name": "Ideal Jerry",
-            "locationId": 1
-        },
-        {
-            "id": 3,
-            "name": "Pichael Thompson",
-            "locationId": 2
-        },
-        {
-            "id": 4,
-            "name": "Kelsey Shawsen",
-            "locationId": 1
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle"
+    },
+    {
+      "id": 2,
+      "name": "Decker",
+      "breed": "German Shepherd"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hannah Hall",
+      "address": "7002 Chestnut Ct"
+    },
+    {
+      "id": 2,
+      "name": "Beth Smith",
+      "address": "7012 Chestnut Ct"
+    },
+    {
+      "id": 3,
+      "name": "Donna Gueteman",
+      "address": "7022 Chestnut Ct"
+    },
+    {
+      "id": 4,
+      "name": "Agent Gribbles",
+      "address": "7032 Chestnut Ct"
+    },
+    {
+      "id": 5,
+      "name": "David Prime",
+      "address": "7042 Chestnut Ct"
+    },
+    {
+      "id": 6,
+      "name": "Dr. Schmidt",
+      "address": "7052 Chestnut Ct"
+    },
+    {
+      "id": 7,
+      "name": "Bobby Moynihan",
+      "address": "7062 Chestnut Ct"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Summer Smith",
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Morty Smith",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Gerry Smith",
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Mr Meeseeks",
+      "locationId": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "General Nathan",
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Ideal Jerry",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Pichael Thompson",
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Kelsey Shawsen",
+      "locationId": 1
+    }
+  ]
 }
