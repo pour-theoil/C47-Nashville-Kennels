@@ -7,7 +7,7 @@ export const AnimalCard = ({ animal, deleteAnimal }) => {
       <div className="card">
         <div className="card-content">
           <picture>
-            {/* <img src={require('./dog.svg')} alt="My Dog" /> */}
+            <img src={animal.img} alt="My Dog" />
           </picture>
           <h3>Name: <span className="card-petname">
             {animal.name}
