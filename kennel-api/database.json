@@ -5,42 +5,48 @@
       "name": "Snowball",
       "breed": "Robot",
       "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg",
-      "locationId": 1
+      "locationId": 1,
+      "customerId": 3
     },
     {
       "id": 3,
       "name": "Snuffles I",
       "breed": "Fluffy",
       "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg",
-      "locationId": 2
+      "locationId": 2,
+      "customerId": 3
     },
     {
       "id": 4,
       "name": "Snuffles II",
       "breed": "Fluffy",
       "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg",
-      "locationId": 2
+      "locationId": 2,
+      "customerId": 3
     },
     {
       "id": 5,
       "name": "Snuffles 1",
       "breed": "Fluffy",
       "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg",
-      "locationId": 2
+      "locationId": 2,
+      "customerId": 3
     },
     {
       "id": 6,
       "name": "Snuffles 2",
       "breed": "Fluffy",
       "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg",
-      "locationId": 2
+      "locationId": 2,
+      "customerId": 3
     },
     {
       "id": 7,
       "name": "Snuffles 3",
       "breed": "Fluffy",
       "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg",
-      "locationId": 2
+      "locationId": 2,
+      "customerId": 3
     }
 
   ],
@@ -48,37 +54,44 @@
     {
       "id": 1,
       "name": "Hannah Hall",
-      "address": "7002 Chestnut Ct"
+      "address": "7002 Chestnut Ct",
+      "animalId": 2
     },
     {
       "id": 2,
       "name": "Beth Smith",
-      "address": "7012 Chestnut Ct"
+      "address": "7012 Chestnut Ct",
+      "animalId": 5
     },
     {
       "id": 3,
       "name": "Donna Gueteman",
-      "address": "7022 Chestnut Ct"
+      "address": "7022 Chestnut Ct",
+      "animalId": 3
     },
     {
       "id": 4,
       "name": "Agent Gribbles",
-      "address": "7032 Chestnut Ct"
+      "address": "7032 Chestnut Ct",
+      "animalId": 1
     },
     {
       "id": 5,
       "name": "David Prime",
-      "address": "7042 Chestnut Ct"
+      "address": "7042 Chestnut Ct",
+      "animalId": 6
     },
     {
       "id": 6,
       "name": "Dr. Schmidt",
-      "address": "7052 Chestnut Ct"
+      "address": "7052 Chestnut Ct",
+      "animalId": 7
     },
     {
       "id": 7,
       "name": "Bobby Moynihan",
-      "address": "7062 Chestnut Ct"
+      "address": "7062 Chestnut Ct",
+      "animalId": 3
     }
   ],
   "employees": [

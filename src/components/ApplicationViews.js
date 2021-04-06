@@ -6,6 +6,8 @@ import { EmployeeList } from "./employees/EmployeeList"
 import { CustomerList } from './customers/CustomerList'
 import { LocationList } from "./location/LocationList"
 import { OwnerList } from "./owners/OwnerList"
+import { AnimalDetail } from "./animals/AnimalDetail"
+import { CustomerDetail } from "./customers/CustomerDetails"
 
 
 export const ApplicationViews = () => {
@@ -21,8 +23,16 @@ export const ApplicationViews = () => {
               <AnimalList />
             </Route>
 
-            <Route path="/customers">
+            <Route path="/animals/:animalId(\d+)">
+                <AnimalDetail />
+            </Route>
+
+            <Route exact path="/customers">
                 <CustomerList />
+            </Route>
+
+            <Route path="/customers/:customerId(\d+)">
+                <CustomerDetail />
             </Route>
 
             <Route path="/locations">
