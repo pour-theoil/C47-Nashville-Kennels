@@ -26,7 +26,9 @@ export const AnimalList = () => {
       
     return (
         <div className="container-cards">
-         {animals.map(animal => <AnimalCard animal={animal} key={animal.id} deleteAnimal={deleteAnimal}/>)}
+         {animals.map(animal => <AnimalCard animal={animal} 
+                                            key={animal.id} 
+                                            deleteAnimal={deleteAnimal}/>)}
         </div>
     );
 };
