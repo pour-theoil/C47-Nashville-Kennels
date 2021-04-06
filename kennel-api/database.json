@@ -4,14 +4,45 @@
       "id": 2,
       "name": "Snowball",
       "breed": "Robot",
-      "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg"
+      "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg",
+      "locationId": 1
     },
     {
       "id": 3,
-      "name": "Snuffles",
+      "name": "Snuffles I",
       "breed": "Fluffy",
-      "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg"
+      "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg",
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Snuffles II",
+      "breed": "Fluffy",
+      "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg",
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "name": "Snuffles 1",
+      "breed": "Fluffy",
+      "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg",
+      "locationId": 2
+    },
+    {
+      "id": 6,
+      "name": "Snuffles 2",
+      "breed": "Fluffy",
+      "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg",
+      "locationId": 2
+    },
+    {
+      "id": 7,
+      "name": "Snuffles 3",
+      "breed": "Fluffy",
+      "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg",
+      "locationId": 2
     }
+
   ],
   "customers": [
     {
@@ -92,22 +123,20 @@
     {
       "id": 1,
       "name": "General Nathan",
-      "locationId": 2
+      "locationId": 2,
+      "animalId" : 2 
     },
     {
       "id": 2,
       "name": "Ideal Jerry",
-      "locationId": 1
+      "locationId": 1,
+      "animalId" : 5
     },
     {
       "id": 3,
       "name": "Pichael Thompson",
-      "locationId": 2
-    },
-    {
-      "id": 4,
-      "name": "Kelsey Shawsen",
-      "locationId": 1
+      "locationId": 2,
+      "animalId" : 2
     }
   ]
 }

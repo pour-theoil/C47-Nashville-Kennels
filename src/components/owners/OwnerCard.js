@@ -1,6 +1,6 @@
 import React from "react"
 
-export const OwnerCard = ({owner}) => (
+export const OwnerCard = ({ owner, deleteOwner}) => (
    <div className="card">
        <div className="card-content">
            <picture>
@@ -10,6 +10,7 @@ export const OwnerCard = ({owner}) => (
                 {owner.name}
                 </span></h3>
             <p>Location: {owner.location.name}</p>
+            <button type="button" onClick={() => deleteOwner(owner.id)}>Remove</button>
        </div>
    </div>
 )
