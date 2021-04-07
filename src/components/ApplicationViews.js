@@ -8,6 +8,7 @@ import { LocationList } from "./location/LocationList"
 import { OwnerList } from "./owners/OwnerList"
 import { AnimalDetail } from "./animals/AnimalDetail"
 import { CustomerDetail } from "./customers/CustomerDetails"
+import { AnimalForm } from './animals/AnimalForm'
 
 
 export const ApplicationViews = () => {
@@ -25,6 +26,10 @@ export const ApplicationViews = () => {
 
             <Route path="/animals/:animalId(\d+)">
                 <AnimalDetail />
+            </Route>
+
+            <Route path="/animals/create">
+                <AnimalForm />
             </Route>
 
             <Route exact path="/customers">
