@@ -23,7 +23,7 @@ export const AnimalEditForm = () => {
 
     // This is an edit, so we need the id
     const editedAnimal = {
-      id: animal.Id,
+      id: animalId,
       name: animal.name,
       breed: animal.breed
     };
@@ -39,7 +39,7 @@ export const AnimalEditForm = () => {
         setAnimal(animal);
         setIsLoading(false);
       });
-  }, []);
+  }, [animalId]);
 
   return (
     <>

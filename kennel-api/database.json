@@ -1,8 +1,8 @@
 {
   "animals": [
     {
-      "id": 3,
-      "name": "Snuffles I",
+      "id": 2,
+      "name": "Snuffles 1",
       "breed": "Fluffy",
       "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg",
       "locationId": 2,

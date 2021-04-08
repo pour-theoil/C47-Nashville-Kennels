@@ -17,7 +17,7 @@ import { AnimalEditForm} from './animals/AnimalEditForm'
  
 
 export const ApplicationViews = () => {
-    const isAuthenticated = () => sessionStorage.getItem("kennel_customer");
+    
   
     return (
         <>
@@ -25,11 +25,7 @@ export const ApplicationViews = () => {
             <Route exact path="/">
                 <Home />
             </Route>
-
-            <Route exact path="/animals">
-	            {(isAuthenticated()) ? <Redirect to ="/animals" /> : <Redirect to="/login"/>}
-            </Route>
-
+            
             <Route path="/login">
 	            <Login />
             </Route>
