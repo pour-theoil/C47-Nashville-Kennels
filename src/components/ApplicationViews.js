@@ -1,5 +1,5 @@
-import React from "react"
-import { Route } from "react-router-dom"
+import React, {useEffect} from "react"
+import { Route, Redirect } from "react-router-dom"
 import { Home } from "./Home"
 import { AnimalList } from "./animals/AnimalList"
 import { EmployeeList } from "./employees/EmployeeList"
@@ -9,14 +9,29 @@ import { OwnerList } from "./owners/OwnerList"
 import { AnimalDetail } from "./animals/AnimalDetail"
 import { CustomerDetail } from "./customers/CustomerDetails"
 import { AnimalForm } from './animals/AnimalForm'
+import { Register } from './auth/Register'
+import { Login } from './auth/Login'
+import { AnimalEditForm} from './animals/AnimalEditForm'
 
+
+ 
 
 export const ApplicationViews = () => {
+    
+  
     return (
         <>
             {/* Render the location list when http://localhost:3000/ */}
             <Route exact path="/">
                 <Home />
+            </Route>
+            
+            <Route path="/login">
+	            <Login />
+            </Route>
+
+            <Route path="/register">
+            	<Register />
             </Route>
 
             {/* Render the animal list when http://localhost:3000/animals */}
@@ -31,6 +46,12 @@ export const ApplicationViews = () => {
             <Route path="/animals/create">
                 <AnimalForm />
             </Route>
+
+            <Route path="/animals/:animalId(\d+)/edit">
+                <AnimalEditForm />
+        
+            </Route>
+
 
             <Route exact path="/customers">
                 <CustomerList />
