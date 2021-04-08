@@ -1,4 +1,4 @@
-import React, {useEffect} from "react"
+import React, { useState } from "react"
 import { Route, Redirect } from "react-router-dom"
 import { Home } from "./Home"
 import { AnimalList } from "./animals/AnimalList"
@@ -11,32 +11,37 @@ import { CustomerDetail } from "./customers/CustomerDetails"
 import { AnimalForm } from './animals/AnimalForm'
 import { Register } from './auth/Register'
 import { Login } from './auth/Login'
-import { AnimalEditForm} from './animals/AnimalEditForm'
+import { AnimalEditForm } from './animals/AnimalEditForm'
 
 
- 
+
 
 export const ApplicationViews = () => {
-    
-  
+    const [isAuthenticated, setIsAuthenticated] = useState(sessionStorage.getItem("kennel_customer") !== null)
+
+    const setAuthUser = (user) => {
+        sessionStorage.setItem("kennel_customer", JSON.stringify(user))
+        setIsAuthenticated(sessionStorage.getItem("kennel_customer") !== null)
+    }
+
     return (
         <>
             {/* Render the location list when http://localhost:3000/ */}
             <Route exact path="/">
                 <Home />
             </Route>
-            
-            <Route path="/login">
-	            <Login />
-            </Route>
-
-            <Route path="/register">
-            	<Register />
-            </Route>
 
             {/* Render the animal list when http://localhost:3000/animals */}
             <Route exact path="/animals">
-              <AnimalList />
+                {isAuthenticated ? <AnimalList /> : <Redirect to="/login" />}
+            </Route>
+
+            <Route path="/login">
+                <Login setAuthUser={setAuthUser} />
+            </Route>
+
+            <Route path="/register">
+                <Register setAuthUser={setAuthUser} />
             </Route>
 
             <Route exact path="/animals/:animalId(\d+)">
@@ -49,7 +54,7 @@ export const ApplicationViews = () => {
 
             <Route path="/animals/:animalId(\d+)/edit">
                 <AnimalEditForm />
-        
+
             </Route>
 
 
