@@ -37,18 +37,21 @@
       "id": 2,
       "name": "Beth Smith",
       "address": "7012 Chestnut Ct",
+      "email": "beth@email.com",
       "animalId": 5
     },
     {
       "id": 3,
       "name": "Donna Gueteman",
       "address": "7022 Chestnut Ct",
+      "email": "donna@email.com",
       "animalId": 3
     },
     {
       "id": 5,
       "name": "David Prime",
       "address": "7042 Chestnut Ct",
+      "email": "david@email.com",
       "animalId": 6
     }
   ],
