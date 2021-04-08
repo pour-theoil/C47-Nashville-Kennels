@@ -1,7 +1,6 @@
 import "./Animal.css"
 import React from "react"
 import { Link } from "react-router-dom"
-import {history} from 'react-router-dom'
 
 export const AnimalCard = ({ animal, deleteAnimal }) => {
     return (
