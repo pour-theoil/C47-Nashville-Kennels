@@ -39,7 +39,7 @@ export const ApplicationViews = () => {
               <AnimalList />
             </Route>
 
-            <Route path="/animals/:animalId(\d+)">
+            <Route exact path="/animals/:animalId(\d+)">
                 <AnimalDetail />
             </Route>
 

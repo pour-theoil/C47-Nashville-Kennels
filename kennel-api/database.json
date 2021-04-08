@@ -4,8 +4,8 @@
       "id": 2,
       "name": "Snuffles 1",
       "breed": "Fluffy",
-      "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg",
-      "locationId": 2,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdVw9xfoHics2aUIMht7yJMgC_7_CdmUmjdA&usqp=CAU",
+      "locationId": 0,
       "customerId": 3
     },
     {
@@ -27,6 +27,7 @@
     {
       "name": "Twinkie",
       "breed": "Cat",
+      "img": "https://i.pinimg.com/originals/b9/9d/61/b99d6119d0a58f257f3834814604791d.jpg",
       "locationId": 1,
       "customerId": 2,
       "id": 7
