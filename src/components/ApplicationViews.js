@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { Route, Redirect } from "react-router-dom"
 import { Home } from "./Home"
 import { AnimalList } from "./animals/AnimalList"
@@ -16,13 +16,7 @@ import { AnimalEditForm } from './animals/AnimalEditForm'
 
 
 
-export const ApplicationViews = () => {
-    const [isAuthenticated, setIsAuthenticated] = useState(sessionStorage.getItem("kennel_customer") !== null)
-
-    const setAuthUser = (user) => {
-        sessionStorage.setItem("kennel_customer", JSON.stringify(user))
-        setIsAuthenticated(sessionStorage.getItem("kennel_customer") !== null)
-    }
+export const ApplicationViews = ({isAuthenticated, setAuthUser}) => {
 
     return (
         <>
